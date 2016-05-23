@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30062b47-5b40-49aa-86cd-9f4f379dd7cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fixture/registration.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_case_registration.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/email_temporary.py" afterPath="$PROJECT_DIR$/fixture/email_temporary.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/get_email_in_temporaryBox.py" afterPath="$PROJECT_DIR$/get_email_in_temporaryBox.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case_registration.py" afterPath="$PROJECT_DIR$/test_case_registration.py" />
     </list>
     <ignored path="QA_test_test_wheely.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,8 +39,8 @@
       <file leaf-file-name="test_case_registration.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_case_registration.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="154" column="38" selection-start-line="154" selection-start-column="38" selection-end-line="154" selection-end-column="38" />
+            <state relative-caret-position="2035">
+              <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
               <folding>
                 <element signature="e#685#694#0" expanded="true" />
               </folding>
@@ -54,7 +51,7 @@
       <file leaf-file-name="registration.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/registration.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="272">
               <caret line="18" column="89" selection-start-line="18" selection-start-column="89" selection-end-line="18" selection-end-column="89" />
               <folding>
                 <element signature="e#25#38#0" expanded="true" />
@@ -66,7 +63,7 @@
       <file leaf-file-name="test_two.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_two.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="1037">
               <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="73" selection-end-column="60" />
               <folding>
                 <element signature="e#685#694#0" expanded="true" />
@@ -100,7 +97,7 @@
       <file leaf-file-name="email_temporary.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/email_temporary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="895">
+            <state relative-caret-position="1581">
               <caret line="97" column="25" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -122,7 +119,7 @@
       <file leaf-file-name="test_case_login.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-649">
+            <state relative-caret-position="714">
               <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="e#685#694#0" expanded="true" />
@@ -192,7 +189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -241,6 +237,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -524,34 +521,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_case_registration - 2016.05.23 at 10h 59m 41s.xml">
+    <history-entry file="Unittests_in_test_case_registration - 2016.05.23 at 15h 04m 50s.xml">
       <configuration name="Unittests in test_case_registration" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_case_registration - 2016.05.23 at 11h 05m 42s.xml">
+    <history-entry file="Unittests_in_test_case_registration - 2016.05.23 at 15h 05m 44s.xml">
       <configuration name="Unittests in test_case_registration" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_case_registration - 2016.05.23 at 11h 07m 00s.xml">
+    <history-entry file="Unittests_in_test_case_registration - 2016.05.23 at 15h 20m 08s.xml">
       <configuration name="Unittests in test_case_registration" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_case_registration - 2016.05.23 at 11h 09m 32s.xml">
+    <history-entry file="Unittests_in_test_case_registration - 2016.05.23 at 15h 21m 08s.xml">
       <configuration name="Unittests in test_case_registration" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_case_registration - 2016.05.23 at 11h 11m 47s.xml">
+    <history-entry file="Unittests_in_test_case_registration - 2016.05.23 at 15h 22m 53s.xml">
       <configuration name="Unittests in test_case_registration" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_case_registration - 2016.05.23 at 11h 13m 49s.xml">
+    <history-entry file="Unittests_in_test_case_registration - 2016.05.23 at 15h 24m 12s.xml">
       <configuration name="Unittests in test_case_registration" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_case_registration - 2016.05.23 at 11h 16m 34s.xml">
+    <history-entry file="Unittests_in_test_case_registration - 2016.05.23 at 15h 24m 42s.xml">
       <configuration name="Unittests in test_case_registration" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_case_registration - 2016.05.23 at 11h 19m 01s.xml">
+    <history-entry file="Unittests_in_test_case_registration - 2016.05.23 at 15h 36m 18s.xml">
       <configuration name="Unittests in test_case_registration" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_case_registration - 2016.05.23 at 11h 21m 55s.xml">
+    <history-entry file="Unittests_in_test_case_registration - 2016.05.23 at 15h 37m 20s.xml">
       <configuration name="Unittests in test_case_registration" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_case_registration - 2016.05.23 at 11h 26m 36s.xml">
+    <history-entry file="Unittests_in_test_case_registration - 2016.05.23 at 15h 38m 40s.xml">
       <configuration name="Unittests in test_case_registration" configurationId="tests" />
     </history-entry>
   </component>
@@ -591,11 +588,97 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test_three.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="139" selection-end-column="51" />
+          <folding>
+            <element signature="e#684#693#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case_registration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#685#694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/registration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="89" selection-start-line="18" selection-start-column="89" selection-end-line="18" selection-end-column="89" />
+          <folding>
+            <element signature="e#25#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_two.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="73" selection-end-column="60" />
+          <folding>
+            <element signature="e#685#694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/login_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#1#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/email_temporary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="97" column="25" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_email_in_temporaryBox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="e#685#694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_three.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -783,7 +866,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/email_temporary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="895">
+        <state relative-caret-position="1581">
           <caret line="97" column="25" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -793,7 +876,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_case_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-649">
+        <state relative-caret-position="714">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="e#685#694#0" expanded="true" />
@@ -803,7 +886,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_two.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="1037">
           <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="73" selection-end-column="60" />
           <folding>
             <element signature="e#685#694#0" expanded="true" />
@@ -813,7 +896,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/registration.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="272">
           <caret line="18" column="89" selection-start-line="18" selection-start-column="89" selection-end-line="18" selection-end-column="89" />
           <folding>
             <element signature="e#25#38#0" expanded="true" />
@@ -823,8 +906,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_case_registration.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="154" column="38" selection-start-line="154" selection-start-column="38" selection-end-line="154" selection-end-column="38" />
+        <state relative-caret-position="2035">
+          <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
           <folding>
             <element signature="e#685#694#0" expanded="true" />
           </folding>

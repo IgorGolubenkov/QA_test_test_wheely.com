@@ -62,20 +62,22 @@ class TestRegistration(unittest.TestCase):
         # извлекаем текст элемента
         text_region_field = region_field.get_attribute('text')
         # так  как тест для региона Россия, если стоит другая локаль соврешаем действия для выбора локали Россия
-        if text_region_field != "Russia":
+        if text_region_field != "Russ":
             action.tap(region_field).perform()
 
-            # эта часть кода пока предварительная, требуется изменение
-            for i in self.driver.find_elements_by_class_name('android.widget.RelativeLayout'):
+            while True:
+
+                for el_region in self.driver.find_elements_by_id('com.wheely.wheely.dev:id/item_country_displayname'):
+                    if el_region.get_attribute('text') == "Бенин":
+                        action.tap(el_region).perform()
+                        break
                 list_region_name_field = self.driver.find_elements_by_class_name('android.widget.RelativeLayout')
+                if list_region_name_field == []:
+                    break
                 start_el_scrl = list_region_name_field[1]
                 stop_el_scrl = list_region_name_field[0]
                 self.driver.scroll(start_el_scrl, stop_el_scrl)
-                if self.driver.find_element_by_id('com.wheely.wheely.dev:id/item_country_displayname').get_attribute(
-                        'text') == "Россия":
-                    right_region_field = self.driver.find_element_by_id('com.wheely.wheely.dev:id/item_country_displayname')
-                    action.tap(right_region_field).perform()
-                    # конец недаработанной части кода
+
 
         # находим поле для ввоода номера телефона, тап по полю, и вводим номер телефона
         el_numberphone_field = self.driver.find_element_by_id('com.wheely.wheely.dev:id/phoneField')
@@ -163,3 +165,5 @@ class TestRegistration(unittest.TestCase):
 if __name__ == '__main__':
     suite = unittest.TestLoader().loadTestsFromTestCase(TestRegistration)
     unittest.TextTestRunner(verbosity=2).run(suite)
+
+
