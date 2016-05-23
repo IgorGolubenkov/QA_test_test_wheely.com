@@ -62,13 +62,13 @@ class TestRegistration(unittest.TestCase):
         # извлекаем текст элемента
         text_region_field = region_field.get_attribute('text')
         # так  как тест для региона Россия, если стоит другая локаль соврешаем действия для выбора локали Россия
-        if text_region_field != "Russ":
+        if text_region_field != "Russia":
             action.tap(region_field).perform()
 
             while True:
 
                 for el_region in self.driver.find_elements_by_id('com.wheely.wheely.dev:id/item_country_displayname'):
-                    if el_region.get_attribute('text') == "Бенин":
+                    if el_region.get_attribute('text') == "Россия":
                         action.tap(el_region).perform()
                         break
                 list_region_name_field = self.driver.find_elements_by_class_name('android.widget.RelativeLayout')
