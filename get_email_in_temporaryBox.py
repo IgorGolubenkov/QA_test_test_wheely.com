@@ -1,5 +1,5 @@
 
-from email_temporary import TempMail
+from fixture.email_temporary import TempMail
 
 tm = TempMail()
 print(tm.get_mailbox('gebufu@divismail.ru'))
