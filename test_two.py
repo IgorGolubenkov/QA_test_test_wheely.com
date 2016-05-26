@@ -16,6 +16,7 @@ import unittest
 from appium import webdriver
 from appium.webdriver.common.touch_action import TouchAction
 from fixture.login import LoginHelper
+import time
 
 
 test_data = {}
@@ -61,7 +62,13 @@ class TestLogin(unittest.TestCase):
         # так  как тест для региона Россия, если стоит другая локаль соврешаем действия для выбора локали Россия
         if text_region_field != "Russ":
             action.tap(region_field).perform()
-            list_region_name_field = self.driver.find_elements_by_class_name('android.widget.RelativeLayout')
-            start_el_scrl = list_region_name_field[10]
-            stop_el_scrl = list_region_name_field[0]
-            self.driver.scroll(start_el_scrl, stop_el_scrl)
+
+            #list_region_name_field = self.driver.find_elements_by_class_name('android.widget.RelativeLayout')
+            for i in self.driver.find_elements_by_class_name('android.widget.RelativeLayout'):
+                list_region_name_field = self.driver.find_elements_by_class_name('android.widget.RelativeLayout')
+                start_el_scrl = list_region_name_field[1]
+                stop_el_scrl = list_region_name_field[0]
+                self.driver.scroll(start_el_scrl, stop_el_scrl)
+                if self.driver.find_element_by_id('com.wheely.wheely.dev:id/item_country_displayname').get_attribute('text') == "Россия":
+                    right_region_field = self.driver.find_element_by_id('com.wheely.wheely.dev:id/item_country_displayname')
+                    action.tap(right_region_field).perform()
